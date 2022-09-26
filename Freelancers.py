@@ -7,7 +7,7 @@ st.title('Freelancers in the Middle East')
 # Adding a Markdown
 st.markdown('By: Stephany Said - 202371921')
 # A dataset of freelancers in the Middle East 
-df= pd.read_csv(r'C:\Users\pcs\Desktop\Freelancers.csv')
+df= pd.read_csv(r'Freelancers.csv')
 df
 # Line graph of the Price per Hour as a function of Country 
 st.header("Location of the Freelancers and the Price they Charge per Hour")
